@@ -1,0 +1,22 @@
+// store todos
+var todos = ['item 1', 'item 2', 'item 3'];
+
+// display todos
+console.log ('My Todos' , todos];
+
+//add new todos
+todos.push('item 4');
+todos.push('item 5'); // adding a new array (after the last array) inside your variable
+
+// change todos
+todos[0] = 'new value';
+// changing value of an array by putting the number of order
+
+// delete todos
+todos.splice(0,1);
+// (where you want to start deleting, how many items you want to delete)
+
+
+
+
+
