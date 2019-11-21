@@ -1,0 +1,53 @@
+var myComputer = {
+operatingSystem: 'mac', //key: 'value'
+screensize:'15 inches' //key: 'value'
+purchaseYear: 2011 //key: 'value'
+};
+
+myComputer.operatingSystem
+myComputer.screenSize
+myComputer.purchaseYear
+
+//Objects and Function
+var gordon = {
+name: 'Gordon'
+sayName: function(){ // sayName is called as a method on the Gordon object
+console.log(this.name); // this. to access the property on the object
+   }
+}
+
+// Store the todos array on an object
+var todoList = {
+todos: ['item 1', 'item 2', 'item 3']
+};
+
+// displayTodos method
+var todoList = {
+todos: ['item 1', 'item 2', 'item 3'],
+displayTodos: function(){}
+ console.log ('My Todos;', this.todos);
+};
+
+// addTodomethod
+addTodo: function(todo) {
+this.todos.push(todo);
+this.displayTodos();
+}
+todoList.addTodo('plunker') // add the string into the last array on object
+
+// changeTodo method
+changeTodo: function (position, newValue) {
+this.todos[0] = "first";
+this.displayTodos(); // My Todos ['ietem 1', 'item 2', 'item 3']
+}
+
+//deleteTodo method
+deleteTodo: function (position) {
+this.todos.splice(position, 1);
+this.displayTodos();
+};
+
+todoList.deleteTodo (1);
+
+
+
