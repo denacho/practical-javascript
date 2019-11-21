@@ -25,6 +25,26 @@ console.log('My todos:', todos);
 }
 
 // add new todos
-function addTodo (){
- todos.push('new todo')
+function addTodo (todo){
+ todos.push(todo);
+displayTodos();
 }
+
+addTodo('some stuff')
+displayTodos()
+
+// changin a todo
+function changeTodo(position, newValue){
+todos[position] = newValue;
+}
+changeTodo(0, 'changed')
+
+// delete a todo
+function deleteTodo(position){
+todos.splice(position,1);
+display.todos();
+}
+
+deleteTodo(0)
+deleteTodo(2)
+
