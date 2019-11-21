@@ -1,0 +1,7 @@
+//todoList.addTodo should add objects
+addTodo: function (todoText) {
+ this,todos.push({
+ todoText: todoText, // is the name of property on this object: refers to parameter
+ completed: false,
+ });
+ this.displayTodos();
