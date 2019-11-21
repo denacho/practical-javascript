@@ -1,0 +1,30 @@
+// run a function
+function makeTurkeySandwich () {
+Get one slice of bread;
+Add turkey;
+Put a slice of bread on top;
+}
+
+// customizing functions
+function makeSandwichWith (filling) {
+get one slice of bread;
+add filling;
+put a slice of bread on top;
+}
+makeSandwichWith (ham);
+
+// more on customizing function
+function sayHiTo(person){
+console.log('hi', person);
+}
+sayHiTo('gordon') // assign the person to gordon
+
+// a function to display todos
+function displayTodos () {
+console.log('My todos:', todos);
+}
+
+// add new todos
+function addTodo (){
+ todos.push('new todo')
+}
