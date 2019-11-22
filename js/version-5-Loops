@@ -1,0 +1,7 @@
+i=0                // Initialization ; where to start
+say "hey" if i < 3 // condition
+increase i by 1    // final-expression
+
+for (Initialization, condition, final-expression) 
+
+// displayTodos should show .todoText
