@@ -1,0 +1,23 @@
+// .toggleAll: If everything's true, make everything false
+
+  //Get number of completed todos.
+  for(var i = 0; i < totalTodos; i++) {
+  if(this.todos[i].completed === true) {
+  completedTodos++;
+  }
+  
+  // case 1 = if everything'd true, make everything false
+  if (completedTodos === totalTodos) [
+  for(var i = 0; i < totalTodos; i++) {
+  this.todos[i].completed = false;
+  }
+  //Case 2: Otherwise, make everything true
+  } else {
+  for (var i = 0; i < totalTodos; i++){
+  this.todos [i].completed = true;
+  }
+  this.displayTodos();
+  
+  
+  
+   
