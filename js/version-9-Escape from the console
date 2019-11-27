@@ -1,0 +1,4 @@
+// Inserting li elements into the DOM
+var todoLi = document.createElement('li');
+vartodosUl = document.querySelector();
+todosUl.appendChild(todoLi);
