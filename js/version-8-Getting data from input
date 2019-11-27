@@ -1,0 +1,36 @@
+// There should be a button for adding todos
+var handlers = {
+displayTodos.function () {    //onclick 
+todoList.displayTodos();
+},
+toggleAll: function () {
+todoList.toggleAll ();
+},
+addTodo: function (){
+var addTodoTextInput = document.getElementById (
+todoList.addTodo(addTodoTextInput.value);
+addTodoTextInput.value = '';  // to keep the button empty
+}
+
+//There should be a button for changing todos
+changeTodo: function () {
+  var changeTodoPositionInput = document.getElementById ('changeTodoPositionInput')
+  var changeTodoTextInput = document.getElementById ('changeTodoTextInput');
+  todolist.changeTodo(changeTodoPositionInput.valueAsNumber, changeTodoTextInput.value);
+  changeTodoPositionInout.value = '';
+  changeTodoTextInput.value = '';
+  
+  // There should be a button for deleting todos
+  deleteTodo = function () {
+  var deletePositionTodoInput = document.getElementById ('deleteTodoPositionInput')
+  todoList,deleteTodo(deleteTodoPositionInput.valueAsNumber);
+  deleteTodoPositionInput.value = '';
+  
+  
+  // There should be a button for toggling a todo
+  toggleCompleted: function (){
+  var toggleCompletedPositionInput = document.getElementById('toggleCompletdPositionInput')
+  todoList.toggleCompleted(toggleCompletedPositionInput.valueAsNumber);
+  toggleCompletedPositionInput.value = '';
+  }
+  
