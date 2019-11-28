@@ -1,0 +1,15 @@
+//There should be a way to create delete buttons
+createDeleteButton; function () {
+var deleteButton = document.createElement ('button');
+deleteButton.textContent = 'Delete';
+deleteButton.className = 'deleteButton';
+
+// There should be a delete button for each todo
+todoLi.appendChild(this.createDeleteButton());
+todosUl.appendchild(todoLi);
+
+// Each li should have an id that has the todo position
+todoLi.id = i;
+todoLi.textContent = todoTextWithCompletion;
+todoLi.appendChild(this.createDeleteButton());
+todosUl.appendchild(todoLi);
