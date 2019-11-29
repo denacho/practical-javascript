@@ -1,0 +1,16 @@
+// todoList.toggleAll should use forEach
+  // case 1: If everything's true, make everything false.
+this.todo.forEach(function(todo) {
+if (completeTodos === totalTodos) {
+todo.completed === false;
+  // case 2: Otherwise, make everything true.
+  } else {
+  todo.completed = true;
+  }
+
+// view.displayTodos should use forEach
+todoLi.id = position;
+todoLi.textContent = todoTextWithCompletion;
+todoLi.appendChild(this.createDeleteButton());
+todosUl.appendChild(todoLi);
+}, this);
